@@ -1,9 +1,9 @@
 :root {
     --blue1: #8ecae6;
     --blue2: #2696ca;
-    --blue3: #023047;
+    --roxo: #471396;
     --yellow: #ffb703;
-    --orange: #fb8500;
+    --yellow2: #FFCC00;
 }
 
 *{
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--blue3);
+    background-color: var(--roxo);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@ button {
 
 @media (max-width: 500px) {
     body {
-        background-color: var(--blue3);
+        background-color: var(--roxo);
         display: flex;
         flex-direction: column;
         align-items: center;
